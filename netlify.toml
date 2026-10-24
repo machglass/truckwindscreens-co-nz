@@ -178,7 +178,7 @@
 
 [[redirects]]
   from = "/ram/*"
-  to = "/truck-makes/ram/"
+  to = "/truck-makes/"
   status = 301
 
 [[redirects]]
