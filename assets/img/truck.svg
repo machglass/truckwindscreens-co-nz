@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Truck illustration">
+<rect width="640" height="360" fill="none"/>
+<g fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="70" width="330" height="190" rx="8" fill="rgba(255,255,255,0.08)"/>
+<path d="M370 120 H470 L540 190 V260 H370 Z" fill="rgba(255,255,255,0.12)"/>
+<path d="M392 140 H462 L515 192 H392 Z" fill="#9fd8f2" stroke="#ffffff"/>
+<line x1="20" y1="260" x2="620" y2="260"/>
+<line x1="540" y1="225" x2="560" y2="225"/>
+</g>
+<g fill="#0a0a0a" stroke="#ffffff" stroke-width="6">
+<circle cx="120" cy="268" r="34"/><circle cx="200" cy="268" r="34"/><circle cx="470" cy="268" r="34"/>
+</g>
+<g fill="#ffffff"><circle cx="120" cy="268" r="10"/><circle cx="200" cy="268" r="10"/><circle cx="470" cy="268" r="10"/></g>
+<path d="M412 150 l14 14 M440 150 l40 40" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+</svg>

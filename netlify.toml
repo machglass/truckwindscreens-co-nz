@@ -1,0 +1,239 @@
+# Netlify config for the rebuilt truckwindscreens.co.nz (plain static site, no build step)
+[build]
+  publish = "."
+  command = ""
+
+# Force the apex domain (the original WordPress site used https://truckwindscreens.co.nz/)
+[[redirects]]
+  from = "https://www.truckwindscreens.co.nz/*"
+  to = "https://truckwindscreens.co.nz/:splat"
+  status = 301
+  force = true
+
+# Old WordPress URLs -> new clean URLs
+[[redirects]]
+  from = "/windscreen-insurance-with-aa-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/aa/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-ami-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/ami/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-amp-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/amp/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-ando-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/ando/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-aon-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/aon/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-autosure-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/autosure/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-bmw-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/bmw/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-camper-care-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/camper-care/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-china-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/china/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-covi-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/covi/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-fmg-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/fmg/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-go-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/go/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-gt-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/gt/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-iag-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/iag/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-insure-direct-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/insure-direct/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-insurex-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/insurex/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-iua-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/iua/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-lantern-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/lantern/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-lumley-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/lumley/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-mainstream-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/mainstream/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-medical-assurance-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/medical-assurance/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-motor-general-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/motor-general/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-nac-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/nac/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-new-india-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/new-india/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-nzi-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/nzi/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-prestigio-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/prestigio/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-protecta-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/protecta/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-qbe-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/qbe/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-star-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/star/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-state-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/state/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-swan-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/swan/"
+  status = 301
+
+[[redirects]]
+  from = "/windscreen-insurance-with-toyota-call-us-for-your-auto-glass-replacement/*"
+  to = "/insurance/toyota/"
+  status = 301
+
+[[redirects]]
+  from = "/isuzu/*"
+  to = "/truck-makes/isuzu/"
+  status = 301
+
+[[redirects]]
+  from = "/ram/*"
+  to = "/truck-makes/ram/"
+  status = 301
+
+[[redirects]]
+  from = "/vehicle-make/*"
+  to = "/truck-makes/"
+  status = 301
+
+[[redirects]]
+  from = "/shop/*"
+  to = "/truck-makes/"
+  status = 301
+
+[[redirects]]
+  from = "/product/*"
+  to = "/truck-makes/"
+  status = 301
+
+[[redirects]]
+  from = "/product-category/*"
+  to = "/truck-makes/"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us/*"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/about-us/*"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
